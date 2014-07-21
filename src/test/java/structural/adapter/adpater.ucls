@@ -12,7 +12,7 @@
   </class>  
   <interface id="2" language="java" name="structural.adapter.interfaces.FileManager" project="zgof" 
     file="/zgof/src/main/java/structural/adapter/interfaces/FileManager.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="134" width="156" x="229" y="439"/>    
+    <position height="-1" width="-1" x="522" y="106"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </interface>  
   <class id="3" language="java" name="structural.adapter.impl.FileManagerUtil" project="zgof" 
     file="/zgof/src/main/java/structural/adapter/impl/FileManagerUtil.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="170" width="228" x="229" y="37"/>    
+    <position height="-1" width="-1" x="211" y="329"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,21 +30,21 @@
   </class>  
   <class id="4" language="java" name="structural.adapter.impl.FileManagerImpl" project="zgof" 
     file="/zgof/src/main/java/structural/adapter/impl/FileManagerImpl.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="152" width="156" x="229" y="247"/>    
+    <position height="-1" width="-1" x="523" y="330"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <realization id="5">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <generalization id="6">    
+  <generalization id="5">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
